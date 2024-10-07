@@ -71,6 +71,8 @@ wireupKeyborad() {
     }
 
     draw() {
+
+        
         ctx.fillStyle = "blue";
         ctx.fillRect(this.x, this.y, this.width, this.height);
     }
